@@ -1,0 +1,27 @@
+{
+  "name": "node-express-api",
+  "version": "1.0.0",
+  "description": "\"learning\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "lint:fix": "eslint --fix  **/*.js",
+    "format": "npx prettier --write ."
+  },
+  "keywords": [
+    "\"nodejs",
+    "express.js\""
+  ],
+  "author": "\"Nagaraj R\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "nodemon": "^2.0.22",
+    "prettierrc": "^0.0.0-5"
+  }
+}
